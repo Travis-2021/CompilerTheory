@@ -17,7 +17,8 @@ NUMBER              ([1-9][0-9]*|0)
 IDENTIFIER          ([_a-zA-Z][_a-zA-Z0-9]*)
 OPERATOR            ([+\-*/%=,;!><(){}])
 SINGLE_COMMENT      ("//"[^\n]*)
-
+CHARCONSTANT        (\'.?\')
+STRING              (\042[^\042\n]*\042)
 %%
 
 "\n"                { line_no++;              }       
@@ -30,6 +31,7 @@ SINGLE_COMMENT      ("//"[^\n]*)
 "main"              { return MAIN;            }   
 "void"              { return VOID;            }
 "int"               { return INT;             }
+"char"              { return CHAR;            }
 "while"             { return WHILE;           }
 "if"                { return IF;              }
 "else"              { return ELSE;            }
@@ -37,7 +39,9 @@ SINGLE_COMMENT      ("//"[^\n]*)
 "break"             { return BREAK;           }
 "continue"          { return CONTINUE;        }
 
+{CHARCONSTANT}      { return CHARCONSTANT;    }    
 {NUMBER}            { return NUMBER;          }
+{STRING}            { return STRING;  }
 {OPERATOR}          { return OPERATOR;        }
 {SINGLE_COMMENT}    { /* do nothing*/         }
 [ \t\r\a]+          { /* ignore all spaces */ }      

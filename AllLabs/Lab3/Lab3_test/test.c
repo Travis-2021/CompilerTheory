@@ -8,6 +8,11 @@ int main() {
     }
     int b;
     b=3;
+    while(b>0){
+        b = b-1;
+    }
+    char m = 's';
+    "123";
 
 	return 0;
 }
