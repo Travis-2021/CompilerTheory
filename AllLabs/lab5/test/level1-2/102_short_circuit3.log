@@ -1,0 +1,71 @@
+identifier "putint" has already been defined
+identifier "putint" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putint" has already been defined
+identifier "putint" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putint" has already been defined
+identifier "putint" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putint" has already been defined
+identifier "putint" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putint" has already been defined
+identifier "putint" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+identifier "putch" has already been defined
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: bool->int
+Implicit conversion: bool->int
+Implicit conversion: bool->int
+Implicit conversion: int->bool
+Implicit conversion: bool->int
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: int->bool
+Implicit conversion: bool->int
+Implicit conversion: int->bool
+Implicit conversion: bool->int
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+timeout: the monitored command dumped core
+Aborted (core dumped)

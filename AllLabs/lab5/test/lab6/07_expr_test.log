@@ -1,0 +1,3 @@
+compiler: src/parser.y:185: int yyparse(): Assertion `t != nullptr' failed.
+timeout: the monitored command dumped core
+Aborted (core dumped)
